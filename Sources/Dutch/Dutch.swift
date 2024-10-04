@@ -9,6 +9,8 @@
 //  MIT License
 //
 
+// swiftlint:disable all
+
 /// Ja
 public let ja = true
 
@@ -68,3 +70,5 @@ public func als(_ conditie: @autoclosure () -> Bool, dan actie: () -> ()) {
 // public anders = else
 // public array = Lijst
 // public antwoord = return
+
+// swiftlint:enable all
