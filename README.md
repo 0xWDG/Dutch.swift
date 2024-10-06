@@ -1,6 +1,6 @@
 # Dutch
 
-Dutch is a Swift Package for ...
+Dutch is a Swift Package to use Dutch (Nederlands) keywords in Swift!
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2F0xWDG%2FDutch%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/0xWDG/Dutch)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2F0xWDG%2FDutch%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/0xWDG/Dutch)
@@ -46,6 +46,9 @@ struct ContentView: View {
     }
 }
 ```
+
+### Disclaimer
+This is meant to be a joke, feel free to use.
 
 ## Contact
 
