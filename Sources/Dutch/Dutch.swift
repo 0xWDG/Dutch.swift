@@ -11,37 +11,38 @@
 
 // swiftlint:disable all
 
-/// Ja
+/// Alias for `true`, Ja
 public let ja = true
 
-/// Waar
+/// Alias for `true`, Waar
 public let waar = true
 
-/// Nee
+/// Alias for `false`, Nee
 public let nee = false
 
-/// Onwaar
+/// Alias for `false`, Onwaar
 public let onwaar = false
 
-/// Functie (Function)
+/// Alias for `func`, Functie (Function)
 public typealias functie = () -> Void
 
-/// Tekst
+/// Alias for `String`, Tekst
 public typealias tekst = String
 
-/// Getal
+/// Alias for `Int`, Getal
 public typealias getal = Int
 
-/// Karakter
+/// Alias for `Character`, Karakter
 public typealias karakter = Character
 
-/// Float?
+/// Alias for `Float`, Float?
 public typealias myFloat = Float
 
-/// Dubbel
+/// Alias for `Double`, Dubbel
 public typealias dubbel = Double
 
-/// zolang
+/// Alias for `while`, zolang
+///
 /// - Parameters:
 ///   - conditie: <#conditie description#>
 ///   - actie: <#actie description#>
@@ -51,7 +52,8 @@ public func zolang(conditie: @autoclosure () -> Bool, actie: () -> ()) {
   }
 }
 
-/// Als
+/// Alias for `else` Als
+///
 /// - Parameters:
 ///   - conditie: <#conditie description#>
 ///   - actie: <#actie description#>
