@@ -34,21 +34,15 @@ targets: [
 ## Usage
 
 ```swift
-import SwiftUI
 import Dutch
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            /// ...
-        }
-        .padding()
-    }
+if true == waar {
+    print("Het is waar!")
 }
 ```
 
 ### Disclaimer
-This is meant to be a joke, feel free to use.
+This is meant to be a joke, feel free to use, update, or anything else
 
 ## Contact
 
