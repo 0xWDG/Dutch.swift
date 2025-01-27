@@ -24,28 +24,28 @@ public let nee = false
 public let onwaar = false
 
 /// Alias for `func`, Functie (Function)
-public typealias functie = () -> Void
+public typealias Functie = () -> Void
 
 /// Alias for `String`, Tekst
-public typealias tekst = String
+public typealias Tekst = String
 
 /// Alias for `Int`, Getal
-public typealias getal = Int
+public typealias Getal = Int
 
 /// Alias for `Character`, Karakter
-public typealias karakter = Character
+public typealias Karakter = Character
 
-/// Alias for `Float`, Float?
-public typealias myFloat = Float
+/// Alias for `Float`, Zwevend?
+public typealias Zwevend = Float
 
 /// Alias for `Double`, Dubbel
-public typealias dubbel = Double
+public typealias Dubbel = Double
 
 /// Alias for `while`, zolang
 ///
 /// - Parameters:
-///   - conditie: <#conditie description#>
-///   - actie: <#actie description#>
+///   - conditie: De conditie waaraan voldaan moet worden
+///   - actie: De actie die uitgevoerd moet worden zolang de conditie waar is
 public func zolang(conditie: @autoclosure () -> Bool, actie: () -> ()) {
   while conditie() {
       actie()
@@ -55,8 +55,8 @@ public func zolang(conditie: @autoclosure () -> Bool, actie: () -> ()) {
 /// Alias for `else` Als
 ///
 /// - Parameters:
-///   - conditie: <#conditie description#>
-///   - actie: <#actie description#>
+///   - conditie: De conditie waaraan voldaan moet worden
+///   - actie:  De actie die uitgevoerd moet worden als de conditie waar is
 public func als(_ conditie: @autoclosure () -> Bool, dan actie: () -> ()) {
   if conditie() {
       actie()
