@@ -39,6 +39,14 @@ import Dutch
 if true == waar {
     print("Het is waar!")
 }
+
+let begroeting: Tekst = "Hallo"
+let versie: NatuurlijkGetal = 1
+let website = Webadres(string: "https://example.com")
+
+indien(versie > 0 && website != nil, dan: {
+    afdrukken(begroeting)
+})
 ```
 
 ### Disclaimer
@@ -54,4 +62,3 @@ This is meant to be a joke, feel free to use, update, or anything else
 🤖 [Discord](https://discordapp.com/users/918438083861573692)
 
 Interested learning more about Swift? [Check out my blog](https://wesleydegroot.nl/blog/).
-
